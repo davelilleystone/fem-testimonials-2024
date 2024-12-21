@@ -37,11 +37,12 @@ body {
     BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: var(--font-medium-weight);
+  color: var(--white);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
-/* General font sizing and styling */
+/* Font sizing, weight and opacity */
 
 h2 {
   font-size: 1.25rem;
@@ -60,4 +61,32 @@ blockquote + blockquote,
 .title {
   font-size: 0.688rem;
   opacity: 50%;
+}
+
+/* Card font and background colours */
+
+.card1 {
+  background-color: var(--moderate-violet);
+}
+
+.card2 {
+  background-color: var(--very-dark-grayish-blue);
+}
+
+.card4 {
+  background-color: var(--very-dark-blackish-blue);
+}
+
+.card3,
+.card5 {
+  background-color: var(--white);
+  color: var(--very-dark-grayish-blue);
+}
+
+.card4 blockquote:first-of-type {
+  color: var(--light-grayish-blue);
+}
+
+.card1 blockquote:last-of-type {
+  color: var(--light-gray);
 }
